@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/bootstrap";
+//@import "~font-awesome/scss/font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.header {
+  background:   linear-gradient(100deg, #12aeb5, #ffffff);
+}
+
+
+.logo{
+  width: 55px;;
+  padding-right: 5px;
+}
+
+.banner-text{
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 30px;
+}
+
+.main-content{
+  min-height: 100vh;
+  margin-top: 10rem;
+}
+
+.email i{
+  position: absolute;
+  left: 15px;
+  top: 40px;
+  color: gray;
+}
